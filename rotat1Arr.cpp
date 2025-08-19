@@ -24,7 +24,7 @@ void reverse(int i ,int j ,vector<int>& b){
             b[i] = b[j];
             b[j] = temp;
             i++;
-            i--;
+            j--;
      }
 }
 
