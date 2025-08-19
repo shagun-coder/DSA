@@ -13,7 +13,7 @@ void reversePart(int i ,int j , vector<int>& a){
             a[i] = a[j];
             a[j] = temp;
             i++;
-            i--;
+            j--;
      }
 
 
