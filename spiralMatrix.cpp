@@ -1,3 +1,7 @@
+// Program: Spiral Matrix Traversal
+// Description: Prints a given matrix in spiral order
+// Example: For a 3x3 matrix, output order will be: 
+// top row → right column → bottom row → left column → upward
 #include<iostream>
 #include<climits>
 using namespace std;
