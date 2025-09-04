@@ -1,3 +1,9 @@
+// Program: Matrix Multiplication
+// Description: Multiplies two matrices if dimensions are valid.
+// Condition: If first matrix is of size (m x n) and second is (p x q),
+//            then multiplication is possible and result will be (m x q).
+// Example:
+// Matrix A (2x3) × Matrix B (3x2) = Result Matrix (2x2)
 #include<iostream>
 using namespace std;
 int main(){
