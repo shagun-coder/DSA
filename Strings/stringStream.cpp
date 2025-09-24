@@ -1,4 +1,4 @@
-/*Given a sentence ,split  every singlw word of the sentence and print it in new line*/
+/*Given a sentence ,split  every single word of the sentence and print it in new line*/
 #include<iostream>
 #include<string>
 #include<algorithm>
@@ -16,4 +16,5 @@ int main(){
     {
         cout << temp<<endl;
     }
+
 }
