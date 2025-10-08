@@ -9,7 +9,7 @@ I am building this repo step by step by covering all important topics.
 
 - ✅ Arrays  
 - ✅ Vectors  
-- ⬜ Strings  
+- ✅ Strings  
 - ⬜ Recursion & Backtracking  
 - ⬜ Linked List  
 - ⬜ Stack & Queue  
