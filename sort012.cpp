@@ -19,7 +19,7 @@ void sort012(vector<int>&b){
             int temp = b[mid];
             b[mid] = b[high];
             b[high] = temp;
-            high--;2
+            high--;
         }
         else if(b[mid] == 0){
             int temp = b[mid];

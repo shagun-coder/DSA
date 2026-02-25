@@ -36,7 +36,7 @@ void pushAtbottomRec(stack<int> &st, int x){
     
 }
 
-// reverse stack using recursion
+// // reverse stack using recursion
 void reverseStack(stack<int> &st){
     if(st.size()==1) return;
     int top=st.top();
@@ -55,7 +55,7 @@ int main()
     st.push(50);
 
     //display stack elements in the same order using recursion
-    cout << "Elements of the stack: ";
+    cout << "Elements of the stack in the same order using recursion : ";
     display(st);
     cout<<endl;
 
