@@ -10,7 +10,7 @@ int main(){
     cout <<"Enter a string:";
     getline(cin,s);
     string temp;
-    stringstream ss(s);
+    stringstream ss(s); 
     
     while(ss>>temp)
     {
