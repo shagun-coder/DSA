@@ -27,7 +27,7 @@ public:
             if(v[indx] == 1000) 
                 v[indx] = t[i] - s[i];
             else if(v[indx] != t[i] - s[i]) 
-                return false;
+                return false;  
         }
 
         return true;
