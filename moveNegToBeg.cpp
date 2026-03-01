@@ -17,19 +17,19 @@ void moveNegative(vector<int>& v) {
     int j = n - 1;
 
     while (i <= j) {
-        if (v[i] >= 0 && v[j] < 0) {
+        if (v[i] > 0 && v[j] < 0) {
             // swap
             int temp = v[i];
-            v[i] = v[j];
+            v[i] = v[j]; 
             v[j] = temp;
             i++;
             j--;   
         }
         else {
-            if (v[i] < 0) {  // already negative, move forward
+            if (v[i] <= 0) {  // already negative , move forward
                 i++;
             }
-            if (v[j] >= 0) { // already positive, move backward
+            if (v[j] > 0) { // already positive, move backward
                 j--;
             }
         }
@@ -37,7 +37,7 @@ void moveNegative(vector<int>& v) {
 }
 
 int main() {
-    vector<int> v = {1, -1, 3, -4, -5, 6, 8};
+    vector<int> v = {1, 0, 3, 0, 0, 6, 8};
 
     cout << "Original vector: ";
     display(v);
