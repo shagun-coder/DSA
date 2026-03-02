@@ -23,6 +23,7 @@ int main(){
     b->next =c;
     c->next = d;
     d->next = e;
+    cout <<a->next->data<<endl; // this will print 20 as a.next is pointing to b and b.data is 20
     Node *temp =a; // we are creating a temp node and storing the address  , value  in it
     
     while(temp != NULL){ // we are checking if temp node is not null then we will print the data and move to next node

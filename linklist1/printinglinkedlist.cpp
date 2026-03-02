@@ -23,7 +23,7 @@ int main()
     b.next = &c;
     c.next = &d;
     d.next = &e;
-    Node temp = a; // we are creating a temp node and storing the address  , value  in it
+    Node temp = a; //
     while (1) // we are checking if temp node is not null then we will print the data and move to next node
     {
        
