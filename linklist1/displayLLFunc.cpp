@@ -10,21 +10,26 @@ class Node{
 
     }
 };
-void display(Node* head){
-    Node* temp = head;
-    while(temp!= NULL)
-   { cout<<temp->data<<" ";
-    temp = temp->next;
+// void display(Node* head){
+//     Node* temp = head;
+//     while(temp!= NULL)
+//    { cout<<temp->data<<" ";
+//     temp = temp->next;
+//     }
+//     cout<<endl;
+//}
+
+void display(Node*head){
+    while(head!= NULL){
+        cout <<head->data<<" ";
+        head= head->next;
     }
-    cout<<endl;
 }
 int size(Node*head){
     Node *temp = head;
     int n = 0;
     while (temp != NULL)
     {
-        n++;
-
         temp = temp->next;
         n++;
     }
